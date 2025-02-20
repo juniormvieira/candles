@@ -19,6 +19,21 @@ Esta documentação cobre todos os padrões de candlestick suportados pelo **pan
 | **CDLHANGINGMAN** (Hanging Man)       | Indica possível reversão bearish | ❌ Vender            | Confirmar com candle seguinte fechando abaixo da mínima |
 | **CDLMARUBOZU** (Marubozu)            | Confirmação da tendência    | ✅ Comprar ou ❌ Vender | Volume acima da média fortalece o sinal |
 | **CDLSHOOTINGSTAR** (Shooting Star)   | Forte reversão bearish        | ❌ Vender            | Precisa de candle seguinte confirmando queda |
+| **CDLMORNINGSTAR** (Morning Star)     | Reversão de alta             | ✅ Comprar           | O terceiro candle deve fechar acima da metade do primeiro candle |
+| **CDLEVENINGSTAR** (Evening Star)     | Reversão de baixa            | ❌ Vender            | O terceiro candle deve fechar abaixo da metade do primeiro candle |
+| **CDLPIERCING** (Piercing Line)       | Reversão de alta             | ✅ Comprar           | O segundo candle deve fechar acima do meio do primeiro candle |
+| **CDLDARKCLOUDCOVER** (Dark Cloud Cover) | Reversão de baixa        | ❌ Vender            | O segundo candle deve fechar abaixo do meio do primeiro candle |
+| **CDLSPINNINGTOP** (Spinning Top)     | Indecisão no mercado         | 🔄 Confirmar         | Precisa de candle seguinte confirmando a direção |
+| **CDLHARAMI** (Harami)                | Possível reversão             | 🔄 Confirmar         | O candle seguinte deve confirmar a reversão |
+| **CDLHARAMICROSS** (Harami Cross)     | Possível reversão             | 🔄 Confirmar         | O candle seguinte deve confirmar a reversão |
+| **CDLGRAVESTONEDOJI** (Gravestone Doji) | Possível reversão de baixa | ❌ Vender | Precisa de confirmação com candle seguinte fechando abaixo da mínima |
+| **CDLDRAGONFLYDOJI** (Dragonfly Doji) | Possível reversão de alta | ✅ Comprar | Precisa de confirmação com candle seguinte fechando acima da máxima |
+| **CDLINVERTEDHAMMER** (Inverted Hammer) | Reversão de alta | ✅ Comprar | Precisa de candle seguinte fechando acima da máxima do padrão |
+| **CDLKICKING** (Kicking) | Forte reversão da tendência | ✅ Comprar ou ❌ Vender | Confirmar com volume alto e continuidade da tendência |
+| **CDLKICKINGBYLENGTH** (Kicking by Length) | Reversão mais forte que Kicking | ✅ Comprar ou ❌ Vender | Mesmo critério do Kicking, mas com força extra |
+| **CDLUNIQUE3RIVER** (Unique Three River Bottom) | Reversão de alta rara | ✅ Comprar | Precisa de candle seguinte fechando acima da máxima |
+| **CDLTRISTAR** (Tristar) | Reversão de tendência após três dojis | 🔄 Confirmar | O terceiro candle deve romper a máxima ou mínima dos dois anteriores |
+| **CDLGAPSIDESIDEWHITE** (Upside Gap Two Crows) | Continuação de baixa após gap | ❌ Vender | Confirmação com candle seguinte fechando abaixo do padrão |
 
 ---
 
